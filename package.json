@@ -1,0 +1,28 @@
+{
+  "name": "service-status-monitoring-skill",
+  "version": "1.0.0",
+  "description": "Zabbix 服务器监控告警分析 Skill - 连接数据库获取告警数据，通过 AI 生成健康分析报告",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "zabbix",
+    "monitoring",
+    "alert",
+    "analysis",
+    "openclaw-skill"
+  ],
+  "author": "Service Ops Team",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
